@@ -300,3 +300,13 @@ p{
      }
      
  }
+
+ .btn-home-page{
+     background-color: $maincolor;
+     color: #fff;
+     &:hover{
+        background-color: $hovercolor;
+        color: #fff;         
+     }
+
+ }

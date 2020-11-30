@@ -281,4 +281,14 @@ p {
 .header-text h2 {
   font-size: 30px;
 }
+
+.btn-home-page {
+  background-color: #0BA0AC;
+  color: #fff;
+}
+
+.btn-home-page:hover {
+  background-color: #2dbac4;
+  color: #fff;
+}
 /*# sourceMappingURL=main.css.map */
