@@ -269,4 +269,16 @@ p {
 .modal-body .modal-login {
   margin-top: 30px;
 }
+
+.card-size {
+  min-height: 250px;
+}
+
+.header-text {
+  font-weight: bold;
+}
+
+.header-text h2 {
+  font-size: 30px;
+}
 /*# sourceMappingURL=main.css.map */
