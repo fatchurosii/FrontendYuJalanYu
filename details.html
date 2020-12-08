@@ -76,7 +76,7 @@
     <section class="section-package">
         <div class="container">
           <div class="row">
-            <div class="col-lg-8 pl-lg-0">
+            <div class="col-md-8 pl-md-0">
                 <div class="card card-details shadow-sm">
                     <h1>Lombok</h1>
                     <p>Nusa Tenggara Barat</p>
@@ -135,7 +135,7 @@
           
         </div>
         <div class="col-lg-4">
-          <div class="card card-details card-right">
+          <div class="card card-details card-right rounded-top">
               <h2>Trip Informations</h2>
               <hr>
               <table class="trip-information">
@@ -160,9 +160,9 @@
               </table>
       </div>
       <div class="join-container">
-          <a href="checkout.html" class="btn btn-block btn-join-now mt-3 py-2">
+          <button class="btn btn-block btn-join-now mt-3 py-2 "data-toggle="modal" data-target="#modalCheckout">
               Join Now
-          </a>
+          </button>
        </div>
    </div>
   </div>      
@@ -235,6 +235,50 @@
       </div>
   </div>
 </footer>
+
+<!-- Modal Checkout -->
+<div class="modal fade" id="modalCheckout" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <!--Content-->
+        <div class="modal-content shadow-sm ">
+            <!--Header-->
+            <div class="text-center mr-3 mt-2">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          <!-- </div> -->
+          <div class="modal-header border-bottom">
+            <h2 class="header-modal-checkout ">Order Summary <img src="images/Vector.png"</>
+          </div>
+            <!--Body-->
+            <div class="modal-body ">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-4 col-sm-6">Package Name</div>
+                    <div class="col-md-4 col-sm-6  price">IDR 100.000</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-4 col-sm-6">Person</div>
+                    <div class="col-4 col-sm-6 input-person ">
+                        <input type="number" min="1">
+                    </div>
+                  
+                  </div>
+                  <hr class="mt-5">
+                  <div class="row total-price">
+                    <h2 class="col-4 col-sm-6">Total</h2>
+                    <h2 class="col-4 col-sm-6 ml-auto ">IDR. 200.000</h2>
+                  </div>
+                 <div class="row">
+                   <button type="submit" class="btn btn-checkout mx-auto">BAYAR</button>
+                 </div>
+                </div>
+              </div>
+        </div>
+    </div>
+  </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
