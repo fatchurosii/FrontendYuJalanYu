@@ -1,5 +1,5 @@
 body {
-  font-family: 'PT Sans Caption', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navbar-brand img {
@@ -7,17 +7,20 @@ body {
 }
 
 .btn-login {
-  background-color: #0BA0AC;
+  border-radius: 15px;
+  background-color: #24d6d6;
   color: #ffffff;
-  width: 100px;
+  width: 70px;
+  font-size: 12px;
   font-weight: bold;
 }
 
 .btn-login:hover {
-  background-color: #2dbac4;
+  background-color: #08e7e7;
   color: #ffffff;
-  width: 100px;
+  width: 70px;
   font-weight: bold;
+  font-size: 12px;
 }
 
 .nav-link {
@@ -25,12 +28,13 @@ body {
 }
 
 .nav-link:hover {
-  border-bottom: 3px solid #0BA0AC;
+  border-bottom: 3px solid #24d6d6;
 }
 
 header {
+  min-height: 650px;
   padding: 200px 0px 165px;
-  background-image: url("../images/banner.png");
+  background-image: url("../images/Banner.png");
   background-size: cover;
 }
 
@@ -41,183 +45,35 @@ header .banner-txt {
   font-weight: bold;
 }
 
-.btn-get-started {
-  background-color: #0BA0AC;
-  color: #ffffff;
-}
-
-.btn-get-started:hover {
-  background-color: #2dbac4;
-  color: #ffffff;
-}
-
-.section-popular {
-  background-color: #EFF9FA;
+.section-layanan {
   min-height: 1000px;
 }
 
-.section-popular .text-popular {
-  color: #000000;
-  font-weight: bold;
-  font-size: 40px;
+.section-layanan .logo-about {
   margin-top: 100px;
 }
 
-.section-popular .text-popular-2 {
+.section-layanan .text-layanan {
   color: #000000;
   font-weight: bold;
   font-size: 15px;
   margin-top: 130px;
 }
 
-.card-travel {
-  margin-top: 50px;
+.section-layanan {
+  min-height: 700px;
 }
 
-.card-travel .card-body {
-  min-height: 200px;
-}
-
-.card-travel .card-body .card-title {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.card-travel .card-body img {
-  background-size: cover;
-}
-
-.card-travel .card-body .card-text {
-  margin-top: -15px;
-  font-size: 20px;
-  font-weight: normal;
-}
-
-.card-travel .card-body .card-body {
-  border-radius: 10px;
-  -webkit-box-shadow: #fafafa;
-          box-shadow: #fafafa;
-}
-
-.card-travel .card-body .btn-details {
-  width: 100px;
-  background-color: #0BA0AC;
-  color: white;
-}
-
-.card-travel .card-body .btn-details:hover {
-  background-color: #2dbac4;
-  color: #ffffff;
-  width: 100px;
-}
-
-.section-more {
-  background-color: #EFF9FA;
-  min-height: 300px;
-}
-
-.text-more {
-  margin-top: 100px;
-  font-size: 40px;
-  font-weight: bold;
-}
-
-.text-more-2 {
-  font-size: 30px;
-}
-
-.btn-more {
-  width: 200px;
-  height: 50px;
-  margin-top: 120px;
-  font-weight: bold;
-  font-size: 20px;
-  text-align: center;
-  background-color: #0BA0AC;
-  color: #ffffff;
-}
-
-.btn-more:hover {
-  background-color: #2dbac4;
-  color: #ffffff;
-}
-
-.section-testimonials {
-  min-height: 500px;
-}
-
-.section-testimonials .text-testi {
+.section-layanan .text-request {
   text-align: center;
   margin-top: 30px;
-  font-weight: bold;
+  font-weight: normal;
   margin-bottom: 30px;
 }
 
-.section-testimonials .card-testimonials {
+.section-layanan .card-request {
   margin-top: 20px;
   max-height: 300px;
-}
-
-.section-footer a {
-  color: #0BA0AC;
-}
-
-.section-package-content .breadcrumb {
-  background-color: transparent;
-  padding: 0;
-  margin-bottom: 30px;
-}
-
-.section-package-content .breadcrumb-item.active {
-  color: #0BA0AC;
-}
-
-.btn-search {
-  background-color: #0BA0AC;
-}
-
-.icon-color {
-  color: white;
-}
-
-.section-package {
-  min-height: 1000px;
-}
-
-.section-package .price-text {
-  color: #0BA0AC;
-  font-size: 20px;
-}
-
-.section-package .card-details {
-  padding: 30px;
-}
-
-.section-package .join-container {
-  margin-top: -16px;
-}
-
-.section-package .btn-join-now {
-  background-color: #0BA0AC;
-  color: #ffffff;
-  border-radius: 0;
-}
-
-.section-package .btn-join-now:hover {
-  background-color: #2dbac4;
-  color: #fff;
-}
-
-.color-heart {
-  color: pink;
-}
-
-h1 {
-  font-size: 26px;
-}
-
-h2 {
-  font-size: 20px;
 }
 
 p {
@@ -225,12 +81,8 @@ p {
   color: #b1b1b1;
 }
 
-.section-more {
-  background-color: #EFF9FA;
-}
-
 .modal-title {
-  color: #0BA0AC !important;
+  color: #24d6d6 !important;
   font-size: 50px;
   margin-left: 20px;
 }
@@ -242,7 +94,7 @@ p {
 }
 
 .modal-body label {
-  color: #0BA0AC;
+  color: #24d6d6;
 }
 
 .modal-body img {
@@ -251,13 +103,13 @@ p {
 
 .modal-body .form-control {
   border-radius: 10px;
-  border-color: #0BA0AC;
+  border-color: #24d6d6;
   height: 50px;
 }
 
 .modal-body .btn-login-modal {
   border-radius: 10px;
-  background-color: #0BA0AC;
+  background-color: #24d6d6;
   color: #fff;
   font-weight: bold;
   font-size: 20px;
@@ -282,12 +134,12 @@ p {
 }
 
 .btn-home-page {
-  background-color: #0BA0AC;
+  background-color: #24d6d6;
   color: #fff;
 }
 
 .btn-home-page:hover {
-  background-color: #2dbac4;
+  background-color: #08e7e7;
   color: #fff;
 }
 
@@ -307,12 +159,193 @@ p {
 .btn-checkout {
   margin-top: 100px;
   width: 200px;
-  background-color: #0BA0AC;
+  background-color: #24d6d6;
   color: #fff;
 }
 
 .btn-checkout:hover {
-  background-color: #2dbac4;
+  background-color: #08e7e7;
   color: #fff;
+}
+
+.card-login {
+  margin-top: 80px;
+}
+
+.card-signin {
+  margin-top: 130px;
+  min-height: 350px;
+  border: 0;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-signin .card-title {
+  margin-bottom: 2rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #24d6d6;
+}
+
+.card-signin img {
+  width: 50%;
+}
+
+.card-signin .form-signin ::-webkit-input-placeholder {
+  font-size: 12px;
+  color: #b3b3b3;
+}
+
+.card-signin .form-signin :-ms-input-placeholder {
+  font-size: 12px;
+  color: #b3b3b3;
+}
+
+.card-signin .form-signin ::-ms-input-placeholder {
+  font-size: 12px;
+  color: #b3b3b3;
+}
+
+.card-signin .form-signin ::placeholder {
+  font-size: 12px;
+  color: #b3b3b3;
+}
+
+.card-signin .form-signin .btn-register-login {
+  margin-top: 20px;
+  width: 200px;
+  color: white;
+  background-color: #24d6d6;
+  font-size: 15px;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.card-signin .form-label-group {
+  justify-items: center;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.card-signin .form-label-group textarea:focus,
+.card-signin .form-label-group textarea.form-control:focus,
+.card-signin .form-label-group input.form-control:focus,
+.card-signin .form-label-group input[type=text]:focus,
+.card-signin .form-label-group input[type=password]:focus,
+.card-signin .form-label-group input[type=email]:focus,
+.card-signin .form-label-group input[type=number]:focus,
+.card-signin .form-label-group [type=text].form-control:focus,
+.card-signin .form-label-group [type=password].form-control:focus,
+.card-signin .form-label-group [type=email].form-control:focus,
+.card-signin .form-label-group [type=tel].form-control:focus,
+.card-signin .form-label-group [contenteditable].form-control:focus {
+  -webkit-box-shadow: inset 0 -1px 0 #ddd;
+          box-shadow: inset 0 -1px 0 #ddd;
+}
+
+.card-signin .form-label-group input {
+  border: none;
+  border-bottom: 1px solid #24d6d6;
+  width: 300px;
+}
+
+a {
+  color: #24d6d6;
+}
+
+a:hover {
+  color: #08e7e7;
+  text-decoration: none;
+}
+
+.card-register {
+  margin-top: 30px;
+}
+
+.card-regist {
+  margin-top: 100px;
+  min-height: 350px;
+  border: 0;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-regist .card-title {
+  margin-bottom: 2rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #24d6d6;
+}
+
+.card-regist img {
+  width: 50%;
+}
+
+.card-regist .form-register ::-webkit-input-placeholder {
+  font-size: 12px;
+  color: #b3b3b3;
+}
+
+.card-regist .form-register :-ms-input-placeholder {
+  font-size: 12px;
+  color: #b3b3b3;
+}
+
+.card-regist .form-register ::-ms-input-placeholder {
+  font-size: 12px;
+  color: #b3b3b3;
+}
+
+.card-regist .form-register ::placeholder {
+  font-size: 12px;
+  color: #b3b3b3;
+}
+
+.card-regist .form-register .btn-register-login {
+  margin-top: 20px;
+  width: 200px;
+  color: white;
+  background-color: #24d6d6;
+  font-size: 15px;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.card-regist .form-label-group {
+  justify-items: center;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.card-regist .form-label-group textarea:focus,
+.card-regist .form-label-group textarea.form-control:focus,
+.card-regist .form-label-group input.form-control:focus,
+.card-regist .form-label-group input[type=text]:focus,
+.card-regist .form-label-group input[type=password]:focus,
+.card-regist .form-label-group input[type=email]:focus,
+.card-regist .form-label-group input[type=number]:focus,
+.card-regist .form-label-group [type=text].form-control:focus,
+.card-regist .form-label-group [type=password].form-control:focus,
+.card-regist .form-label-group [type=email].form-control:focus,
+.card-regist .form-label-group [type=tel].form-control:focus,
+.card-regist .form-label-group [contenteditable].form-control:focus {
+  -webkit-box-shadow: inset 0 -1px 0 #ddd;
+          box-shadow: inset 0 -1px 0 #ddd;
+}
+
+.card-regist .form-label-group input {
+  border: none;
+  border-bottom: 1px solid #24d6d6;
+  width: 300px;
 }
 /*# sourceMappingURL=main.css.map */
